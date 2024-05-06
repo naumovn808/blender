@@ -82,6 +82,7 @@
 
 body {
     font-family: 'Monsterratbold' , serif;
+    background-color: #252237;
 }
 
 .container {
@@ -95,4 +96,55 @@ body {
 .container {
        padding: 0 50px;
        }
+}
+
+.header {
+    background-image: url(./images/header-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 136px;
+}
+
+.header__banner {
+    margin-left: 150px;
+    margin-top: 90px;
+    max-width: 433px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.header__title {
+    font-family: 'Monsterratbold';
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 93%;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.header__desc {
+    font-family: 'Monsterratregular';
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.header__btn {
+    border: none;
+    box-shadow: 0 0 55px 0 rgba(202, 0, 80, 0.51);
+    background-color: #e2521d;
+    border-radius: 10px;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 243%;
+    letter-spacing: 0.21em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    padding: 24px 72px;
 }
